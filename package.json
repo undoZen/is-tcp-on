@@ -1,0 +1,30 @@
+{
+  "name": "is-tcp-on",
+  "version": "0.0.0",
+  "description": "check whether a tcp server could be connected",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/undoZen/is-tcp-on"
+  },
+  "keywords": [
+    "tcp",
+    "connection"
+  ],
+  "author": "undoZen <opensource@undozen.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/undoZen/is-tcp-on/issues"
+  },
+  "homepage": "https://github.com/undoZen/is-tcp-on",
+  "dependencies": {
+    "destroy": "^1.0.3",
+    "es6-promise": "^2.0.1"
+  },
+  "devDependencies": {
+    "tape": "^3.4.0"
+  }
+}
